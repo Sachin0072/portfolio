@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: poppins;
+}
+
+header
+{
+    width: 100vw;
+    height: 50px;
+    background-color: #6A89A6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    overflow: hidden;
+}
+
+header .logo a h2
+{
+    color: white;
+    font-weight: 900;
+}
+
+
+header nav a
+{
+    color: white;
+    font-weight: 600;
+    padding: 20px 20px;
+    
+}
+
+header nav a:hover
+{
+    background-color: white;
+    color: #6A89A6;
+    transition: all .8s ease-in-out;
+}
+
+
+.hero
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/wp7740421-white-anime-wallpapers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .intro
+{
+    text-align: center;
+    color: #86613A;
+}
+
+.hero .intro .btn
+{
+    padding: 10px 20px;
+    background: none;
+    outline: none;
+    border: 1px solid #86613A;
+    margin-top: 5px;
+    color: #86613A;
+    font-weight: 500;
+}
+
+
+.hero .intro .btn:hover
+{
+    background-color: #86613A;
+    color: white;
+    transition: all .8s ease-in-out;
+}
+
+.con
+{
+    width: 100vw;
+    height: 100vh;
+    
+  
+}
+
+.about
+{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.con h1{
+    text-align: center;
+}
+
+.about .card
+{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #6A89A6;
+}
+
+.about .card .img,
+.about .card .details
+{
+    height: 50%;
+    width: 100%
+}
+
+.about .card .details
+{
+    background-color: #6A89A6;
+    color: white;
+    padding-top: 20px;
+}
+
+.skillCon
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillCon .skill
+
+{
+    width: 50%;
+    height: 100%;
+}
+
+.skillCon .skillImg
+
+{
+    width: 50%;
+    height: 100%;
+}
