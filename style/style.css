@@ -94,7 +94,7 @@ header nav a:hover
 .about
 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
@@ -130,23 +130,116 @@ header nav a:hover
 
 .skillCon
 {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin: 70px 0;
 }
 
 .skillCon .skill
-
 {
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.skillCon .gellery
+{
+    width: 60%;
+    height: auto;
 }
 
 .skillCon .skillImg
-
 {
-    width: 50%;
+    width: 100%;
     height: 100%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 120px;
+}
+
+.box
+{
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    transition: all .5s ease-in-out;
+
+}
+
+.row-2
+{
+    grid-row: span 2;
+}
+
+.col-2
+{
+    grid-column: span 2;
+}
+
+
+.box:hover
+{
+    background-position: center;
+
+}
+
+.contact
+{
+ width: 100%;
+ height: 100vh;
+}
+
+.contact h1
+{
+    text-align: center;
+}
+
+.conBOX
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.conBOX form input
+{
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: 1px solid #6A89A6;
+  margin: 5px 0;
+}
+
+.conBOX form .btn{
+    padding: 10px 20px;
+    background: #6A89A6;
+    outline: none;
+    border: 1px solid #6A89A6;
+    margin-top: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+footer
+{
+    background-color: #6A89A6;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

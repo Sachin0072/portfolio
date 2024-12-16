@@ -13,6 +13,9 @@
     />
     <!-- css -->
     <link rel="stylesheet" href="/style/style.css" />
+   
+  </head>
+
   </head>
   <body>
     <!-- header starts -->
@@ -41,11 +44,17 @@
 
     <!-- about starts -->
 
-    <div class="con">
+    <div class="con" id="about">
       <h1>ABOUT ME</h1>
       <div class="about">
         <div class="card">
-          <div class="img"></div>
+          <div class="img">
+            <img
+              src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg"
+              height="100%"
+              width="80%"
+            />
+          </div>
           <div class="details">
             <h2>Sachin Pathania</h2>
             <p>
@@ -55,7 +64,13 @@
         </div>
 
         <div class="card">
-          <div class="img"></div>
+          <div class="img">
+            <img
+              src="https://cdn-icons-png.flaticon.com/256/10327/10327998.png"
+              width="80%"
+              height="100%"
+            />
+          </div>
           <div class="details">
             <h2>Class 10<sup>th</sup></h2>
             <p>
@@ -66,7 +81,14 @@
         </div>
 
         <div class="card">
-          <div class="img"></div>
+          <div class="img">
+            <img
+              src="https://cdn-icons-png.freepik.com/256/10328/10328015.png?semt=ais_hybrid"
+              alt=""
+              width="80%"
+              height="100%"
+            />
+          </div>
           <div class="details">
             <h2>Class 12<sup>th</sup></h2>
             <p>
@@ -77,7 +99,13 @@
         </div>
 
         <div class="card">
-          <div class="img"></div>
+          <div class="img">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvOeb-ogssKECmaW7n4Y4qHXmacp_I_gUtmpqb0FgdhLuOIcyM2rPT9jxZpHiINx3-ao0&usqp=CAU"
+              width="80%"
+              height="100%"
+            />
+          </div>
           <div class="details">
             <h2>BCA</h2>
             <p>
@@ -88,7 +116,14 @@
         </div>
 
         <div class="card">
-          <div class="img"></div>
+          <div class="img">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCVdnxSXsfKxM7u93rPlrgxViBtoS-pCUmPA&s"
+              alt=""
+              width="80%"
+              height="100%"
+            />
+          </div>
           <div class="details">
             <h2>MCA</h2>
             <p>
@@ -103,13 +138,73 @@
     <!-- about starts -->
 
     <!-- skills starts -->
-    <div class=".skillCon">
+    <div class="skillCon" id="skill">
       <div class="skill">
-        <h1>SKILLS</h1>
-        <p>HERE ARE MY SKILLS ------></p>
+        <div class="heading">
+          <h1>SKILLS</h1>
+          <h3>MY ALL SKILLS ARE HERE</h3>
+        </div>
       </div>
-      <div class="skillsImg"></div>
+      <div class="gellery">
+        <div class="skillImg">
+          <div class="box row-2" style="background-image: url(/html.jpg)">
+            HTML
+          </div>
+          <div class="box col-2" style="background-image: url(/css.jpg)">
+            CSS
+          </div>
+          <div class="box" style="background-image: url(/tailwind.png)">
+            TAILWIND CSS
+          </div>
+          <div class="box row-2" style="background-image: url(/react.jpg)">
+            REACT JS
+          </div>
+          <div class="box col-2" style="background-image: url(/node.png)">
+            NODEJS
+          </div>
+          <div class="box" style="background-image: url(/express.png)">
+            EXPRESSJS
+          </div>
+          <div class="box col-2" style="background-image: url(/mongo.jpg)">
+            MONGODB
+          </div>
+        </div>
+      </div>
     </div>
     <!-- skills ends -->
-  </body>
+
+    <!-- contact starts -->
+    <div class="contact" id="contact">
+      <h1>CONTACT ME</h1>
+
+      <div class="conBOX">
+        <div class="boxONE"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27038.01111485767!2d76.25202629354305!3d32.103004186770896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b458198590ddf%3A0xad8e3ff3dfe5b1fe!2sKangra%2C%20Himachal%20Pradesh%20176001!5e0!3m2!1sen!2sin!4v1734372491212!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="boxTWO">
+          <form>
+            <div class="mb-3">
+             
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+             
+            </div>
+            <div class="mb-3">
+             
+              <textarea name="desc" id="desc" cols="30" rows="5" placeholder="description"></textarea>
+            </div>
+         
+            <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
+      </div>
+            
+    </div>
+    <!-- conatact ends -->
+
+    <!-- footer starts -->
+    <footer>
+      <h4>This is made by <b>Sachin Pathania</b></h4>
+    </footer>
+    <!-- footer ends -->
+
+
+</body>
 </html>
